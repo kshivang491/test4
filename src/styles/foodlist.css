@@ -1,0 +1,203 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+
+}
+
+.food-list-section {
+  overflow: hidden;
+}
+
+.food-list-container {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.food-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 100%;
+  width: 80rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  background-color: #f2f2f2;
+}
+
+.food-item {
+  min-width: 30%;
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border: none;
+  background-color: #ffffff;
+}
+
+.food-image-container {
+  margin-bottom: 0.5rem;
+  position: relative;
+  width: 100%;
+  max-width: 390px;
+  padding-bottom: calc(260 / 390 * 100%);
+}
+
+.food-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.food-details {
+  width: 100%;
+  font-size: 1.625rem;
+  font-family: "Frank Ruhl Libre", Georgia, serif;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #222;
+  padding: 1.25rem;
+  background-color: #ffffff;
+}
+
+.food-upload-date {
+  background-color: #ffffff;
+  font-size: 0.70rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.food-title {
+  background-color: #ffffff;
+  font-size: 1.70rem;
+  margin-bottom: 0.5rem;
+}
+
+.food-desc {
+  background-color: #ffffff;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.get-foodinfo {
+  background-color: #ffffff;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.food-title:hover,
+.get-foodinfo:hover {
+  color: rgb(237 182 84);
+  text-decoration: underline;
+}
+
+
+.food-list-title-container {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding-top: 2rem;
+  width: 83rem;
+  box-shadow: 0px -3px 10px -2px gray, 2px 0px 10px -2px gray, -2px 0px 10px -2px gray;
+}
+
+.food-list-title {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.1;
+  letter-spacing: .075rem;
+  text-decoration: underline;
+  color: #222;
+  background: unset;
+  font-family: "Frank Ruhl Libre", Georgia, serif;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .food-item {
+      width: 40%;
+  }
+}
+
+@media (max-width: 650px) {
+  .food-item {
+      width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .food-item {
+      width: 78%;
+  }
+}
+
+.main-food-heading-container{
+  background-image: url(https://images.pexels.com/photos/15390225/pexels-photo-15390225/free-photo-of-view-of-a-beyti-kebab-dish-on-a-white-plate.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+background-size: 100% auto;
+height: 400px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-wrap: wrap;
+align-content: center;
+font-family: Arial, sans-serif;
+font-size: 36px;
+width: 100%;
+opacity: 90%;
+}
+.main-food-heading{
+font-family: "Frank Ruhl Libre", Georgia, serif;
+font-weight: 600;
+line-height: 1.1;
+color: white;
+background: transparent;
+text-align: start;
+margin-top: 12vw;
+}
+
+.food-heading{
+  font-size: 1.4rem;
+   background:transparent;
+   text-shadow: -1px -1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000, 1px 1px 0px #000; 
+}
+
+.food-search-heading{
+  font-family: SourceSansPro, Helvetica, sans-serif;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  font-weight: 700;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.food-search-result{
+  font-family: SourceSansPro, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+.error-message{
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  flex-wrap: wrap;
+  flex-direction: column;
+}

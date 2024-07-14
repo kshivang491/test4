@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.footer-section{
+    overflow: hidden;
+}
+.main_footer_container {
+    font-family: "Frank Ruhl Libre", Georgia, serif;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.footer_search_area {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer_search_container {
+    font-family: SourceSansPro, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    width: 100%;
+    padding-top: 21px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+
+.footer_search_container h2 {
+    font-family: SourceSansPro, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.footer_search {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.footer_search input {
+    width: 50vw;
+    height: 48px;
+    border: 2px solid #BFBFBF;
+    background-color: #ffffff;
+    border-radius: 100px;
+    padding-left: 44px;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer_search_button {
+    padding: 8px;
+    margin-top: 16px;
+    margin-bottom: 25px;
+    background-color: #f5ce35;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2f2f2f;
+    box-sizing: border-box;
+}
+
+.footer {
+    font-family: "Frank Ruhl Libre", Georgia, serif;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #333;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    background-color: #333;
+}
+
+.footer-column h3 {
+    border-bottom: 2px solid #777;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-family: "Frank Ruhl Libre", Georgia, serif;
+    background-color: #333;
+}
+
+.footer-column p,
+.footer-column ul,
+.footer-column form {
+    font-family: "Frank Ruhl Libre", Georgia, serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 10px;
+    background-color: #333;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+    background-color: #333;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    background-color: #333;
+}
+
+.footer-column ul li a:hover {
+    color: #ffa500;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px 5px 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+}
+
+.social-links{
+    background-color: #333;
+}
+
+.social-links img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: transform 0.3s;
+    background-color: #333;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: auto;
+    flex-wrap: wrap;
+    background-color: #333;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.subscribe-form button {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffa500;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscribe-form button:hover {
+    background-color: #e69500;
+}
+
+.footer-bottom {
+    background-color: #333;
+    margin-top: 20px;
+    border-top: 1px solid #777;
+    padding-top: 10px;
+}
+
+.footer-bottom p{
+    background-color: #333;
+}
+
+@media (max-width: 850px) {
+    .footer_search input {
+        width: 70vw;
+    }
+}
+
+@media (max-width:350px) {
+    .footer_search input{
+        padding-left: 15px;
+    }
+    
+    .footer-column {
+        min-width: 150px;
+    }
+}
